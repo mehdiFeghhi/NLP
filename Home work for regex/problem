@@ -1,0 +1,17 @@
+Problem 4
+In this question, you should implement regex in Python. You should use The Python module ”re.” For
+more information about this module, you can use this link: https : //www.tutorialspoint.com/python/python reg expressions.htm For each of the following parts, implement a function in Python that can specify the desired text strings. Your function receives a string as input and returns a Boolean variable that
+indicates whether the given string corresponds to the implemented regex. Inside the function, you should
+write a regex using the ”re” module that can specify desired text strings.
+(a)
+Validating an Email address: In your first function, you should implement a regex that can verify an
+email address. An email address is in the following form username@domain.tld.
+username can only have English letters (uppercase and lowercase), numbers, underline, and dot domain
+can only contain English letters ( small and capital) and numbers tld must have only three characters
+and should consist of only English letters (uppercase and lowercase).
+(b)
+Validating a phone number: In your second function, you should implement a regex that can verify a
+phone number. A phone number is valid if it has one of the following forms:
+- Start with 09 and have 11 characters
+- Start with +989 and have 13 characters
+- Start with 00989 and have 14 characters
